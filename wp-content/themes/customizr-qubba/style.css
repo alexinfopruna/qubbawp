@@ -1,0 +1,15 @@
+/*
+Theme Name: customizr-qubba
+Theme URI: http://qubbaarquitectes.com
+Version: 4.0
+Description: Tema hijo de customizr
+Author: Àlex Garcia
+Author URI: http://alex
+Template: customizr
+*/
+ 
+/*----------------- Cambios a partir de aquí -------------------------------*/
+
+.tc-grid-border .grid__item {
+    border-bottom: none;
+}

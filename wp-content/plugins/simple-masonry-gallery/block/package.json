@@ -1,0 +1,17 @@
+{
+  "name": "simple-masonry-gallery",
+  "version": "1.0.0",
+  "description": "Simple Masonry Gallery Block",
+  "main": "simplemasonrygallery-block.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build:simplemasonrygallery-block": "wp-scripts build src/simplemasonrygallery-block --output-path=dist",
+    "lint-js": "wp-scripts lint-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsushi Kawamori",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "13.0.2"
+  }
+}
