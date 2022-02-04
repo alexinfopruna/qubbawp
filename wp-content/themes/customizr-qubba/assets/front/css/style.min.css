@@ -58,3 +58,15 @@
 .tc-g-cont.czr-talign{
     
 }
+  /* lighbox */
+.fbx-rounded .fbx-prev.fbx-btn-shadow, .fbx-rounded .fbx-prev.fbx-btn-shadow:hover,
+.fbx-rounded .fbx-next.fbx-btn-shadow, .fbx-rounded .fbx-next.fbx-btn-shadow:hover {
+    background: transparent;
+    box-shadow: 2px 0 2px rgb(0 0 0 / 0%);
+}
+.fbx-icon {
+    fill: #AAA;
+}
+.fbx-icon:hover{
+    fill: white;
+}
