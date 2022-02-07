@@ -12,9 +12,9 @@
         -
         
 
-            <?php _e( '+34 933 99 34 52', 'customizr') ?>
+            <?php _e( '+34 93 300 34 52', 'customizr') ?>
         -
-            <?php _e( 'qubbaarquitectes@gmail.com', 'customizr') ?>
+            <?php _e( 'qubba@coac.net', 'customizr') ?>
     
     </span>
   </p>
