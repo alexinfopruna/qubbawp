@@ -1,3 +1,4 @@
+<a href="/" class="nav__link"><span class="nav__title">Torna a projectes </span></a><br>
 <?php
 /**
  * The template for displaying the post navigation in singular (post/page)
@@ -26,12 +27,15 @@ $next_link  = get_next_post_link(
       'category'//taxonomy
     );
 
+
+
 /* If no links are present do not display this */
-if ( null != $prev_link || null != $next_link ) :
+if ( FALSE && null != $prev_link || null != $next_link ) :
 
 ?>
+<!--
 <div class="post-navigation row <?php czr_fn_echo( 'element_class' ) ?>" <?php czr_fn_echo('element_attributes') ?>>
-  <nav id="nav-below" class="col-12">zzzzzzzzzzzzz
+  <nav id="nav-below" class="col-12">
     <h2 class="sr-only"><?php _e('Post navigation', 'customizr') ?></h2>
     <ul class="czr_pager row flex-row flex-no-wrap">
       <li class="previous col-5 <?php echo $tprev_align_class ?>">
@@ -57,4 +61,5 @@ if ( null != $prev_link || null != $next_link ) :
   </ul>
   </nav>
 </div>
+-->
 <?php endif;
