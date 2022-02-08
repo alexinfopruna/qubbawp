@@ -34,12 +34,18 @@
 .czr-talign {
     -webkit-transform: translate(0, -0%);
     transform: translate(0, -0%);
-    bottom: 0;
+    bottom: -4px;
     position: absolute;    
 }
 .tc-g-cont.czr-talign {
     padding: 0 0.2em;
     font-size: 0.8em; 
+}
+
+@media only screen and (min-width: 992px) {
+.tc-g-cont.czr-talign {
+    font-size: 0.6em; 
+}
 }
     
 
@@ -108,6 +114,7 @@ h1{
     font-size: 2em;
 }
 .nav__search{display:none;}
+.nav__menu{font-size:0.85em}
 
 /* PAGINA CONTACE */
 #page-2 .entry-header-inner{display:none;}
