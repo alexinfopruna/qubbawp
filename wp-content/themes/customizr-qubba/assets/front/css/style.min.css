@@ -5,6 +5,9 @@
 .col-auto {
     width:400px;
 }
+
+
+/************************************/
 /* caixa lisyt post */
 .tc-grid-border .grid__item {
     border-bottom: none;
@@ -100,3 +103,11 @@
 *, body, p, div{
     font-family: 'Spartan', sans-serif, "Source Sans Pro",Arial;
 }
+
+h1{
+    font-size: 2em;
+}
+.nav__search{display:none;}
+
+/* PAGINA CONTACE */
+#page-2 .entry-header-inner{display:none;}
