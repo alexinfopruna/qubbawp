@@ -6,6 +6,10 @@
     width:400px;
 }
 
+.branding .navbar-brand-sitename span {
+    font-weight: bolder;
+}
+
 
 /************************************/
 /* caixa lisyt post */
