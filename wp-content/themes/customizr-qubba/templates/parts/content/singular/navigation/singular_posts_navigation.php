@@ -1,4 +1,4 @@
-<a href="/" class="nav__link"><span class="nav__title">Torna a projectes </span></a><br>
+<button class="torna"   > <a href="/">&#8617 Torna a projectes</a></button>
 <?php
 /**
  * The template for displaying the post navigation in singular (post/page)

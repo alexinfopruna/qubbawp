@@ -130,3 +130,29 @@ h1{
 .czr-wp-the-content{
     text-align: justify;
 }
+.torna{
+    cursor: pointer;
+    opacity: 1;
+        background-color: rgba(59,59,59,.2);
+    color: #fff;
+    width: 46px;
+    height: 45px;
+    z-index: 100;
+    border-width: 1px;
+    padding: 0;
+    cursor: pointer;
+    opacity: 1;
+    margin-bottom:35px;
+    width:170px;
+    border:none;
+    border-radius: 3px;
+    
+    transition: background-color 0.5s;
+}
+
+.torna a{color:white;}
+
+.torna:hover{
+     background-color: rgba(59,59,59,.8);
+     transition: background-color 0.5s;
+}
