@@ -13,8 +13,8 @@ function my_theme_enqueue_styles() {
  wp_get_theme()->get('Version')
  );
  
- wp_enqueue_style( $parent_style, get_template_directory_uri() . '/assets/shared/fonts/fa/css/fontawesome-all.min.css' );
- 
+ wp_enqueue_style( "awesome", get_template_directory_uri() . '/assets/shared/fonts/fa/css/fontawesome-all.min.css' );
+ //echo get_template_directory_uri() . '/assets/shared/fonts/fa/css/fontawesome-all.min.css';die();
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 ?>

@@ -126,3 +126,7 @@ h1{
 
 /* PAGINA CONTACE */
 #page-2 .entry-header-inner{display:none;}
+
+.czr-wp-the-content{
+    text-align: justify;
+}

@@ -15,7 +15,7 @@
       endif;//has_header_format_icon
 
       if ( czr_fn_is_registered_or_possible('post_metas') && $cat = czr_fn_get_property( 'cat_list', 'post_metas', array( 'limit'  => czr_fn_get_property('cat_limit') ) ) ) : ?>
-        <div class="tax__container post-info entry-meta">xxxxxxxxxxxxxx
+        <div class="tax__container post-info entry-meta">
           <?php echo $cat ?>
         </div>
     <?php
