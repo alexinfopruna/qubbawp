@@ -202,15 +202,23 @@ h1{
     transform: scale(0.8) !important;
 }*/
 
-
-  
-.modula-item .landscape{
-    /*transform: scale(0.8);*/
-    width:100%;
+.wp-block-gallery figure img{
+    margin-bottom: 80px;
 }
-.modula-item .portrait{
+.modula-item .landscape, .wp-block-gallery figure img.landscape{
     /*transform: scale(0.8);*/
-    width:80%;
+    width:80% !important;
+       display: block;
+  margin-left    : auto;
+  margin-right    : auto;
+}
+.modula-item .portrait,.wp-block-gallery figure img.portrait{
+    /*transform: scale(0.8);*/
+    width:50% !important;
+       display: block;
+  margin-left    : auto;
+  margin-right    : auto;
+ v
 }  
   
 
