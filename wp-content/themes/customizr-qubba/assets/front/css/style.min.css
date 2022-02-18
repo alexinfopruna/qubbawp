@@ -139,10 +139,12 @@ h1{
     
 }
 
-.entry-title{
+.entry-header .entry-title{
         font-size: 1.4em;
     text-align: center;
     font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .entry-content p{
