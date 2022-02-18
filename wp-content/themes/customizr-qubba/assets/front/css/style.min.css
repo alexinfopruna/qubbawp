@@ -205,9 +205,15 @@ h1{
     margin-bottom: 80px;
 }
 
+
 .wp-block-gallery figure img{
-    margin-bottom: 80px;
+    margin-bottom: 80px !important;
 }
+/*
+.wp-block-image{
+    margin-bottom: 50px;
+}
+*/
 .modula-item .landscape, .wp-block-gallery figure img.landscape, .wp-block-gallery figure img{
     /*transform: scale(0.8);*/
   width:50% !important;
