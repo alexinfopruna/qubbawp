@@ -1,8 +1,9 @@
-<button class="torna"   > <a href="/">&#8617 Torna a projectes</a></button>
 <?php
 /**
  * The template for displaying the post navigation in singular (post/page)
  */
+
+//<button class="torna"   > <a href="/">Projectes</a></button>
 
 
 $prev_dir          = is_rtl() ? 'right' : 'left';

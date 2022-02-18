@@ -4,7 +4,7 @@
  */
 
 
-
+/*
 jQuery(window).load(function() {
     jQuery("img").each(function() {
         // Calculate aspect ratio and store it in HTML data- attribute
@@ -26,11 +26,6 @@ console.log("landscape");
             jQuery( this ).addClass( "square" );          
             console.log("square");
         }
-        /*
-        setTimeout(() => {
-  window.dispatchEvent(new Event('resize'));
-}, 300);
-setTimeout(() => {
-  window.dispatchEvent(new Event('resize'));
-}, 300);*/
     })});
+ 
+ */

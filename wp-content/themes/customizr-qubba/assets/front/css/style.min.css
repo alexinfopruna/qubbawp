@@ -201,24 +201,27 @@ h1{
 .modula-item{
     transform: scale(0.8) !important;
 }*/
+.wp-block-gallery{
+    margin-bottom: 80px;
+}
 
 .wp-block-gallery figure img{
     margin-bottom: 80px;
 }
-.modula-item .landscape, .wp-block-gallery figure img.landscape{
+.modula-item .landscape, .wp-block-gallery figure img.landscape, .wp-block-gallery figure img{
     /*transform: scale(0.8);*/
-    width:80% !important;
-       display: block;
+  width:50% !important;
+  display: block;
   margin-left    : auto;
   margin-right    : auto;
 }
-.modula-item .portrait,.wp-block-gallery figure img.portrait{
+.modula-item .portrait,.wp-block-gallery figure img.portrait, .wp-block-gallery figure.portrait img{
     /*transform: scale(0.8);*/
-    width:50% !important;
+    width:30% !important;
        display: block;
   margin-left    : auto;
   margin-right    : auto;
- v
+ 
 }  
   
 
