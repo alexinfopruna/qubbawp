@@ -223,8 +223,18 @@ h1{
   margin-right    : auto;
  
 }  
-  
 
+@media only screen and (max-width: 600px) {
+.modula-item .landscape, .wp-block-gallery figure img.landscape, .wp-block-gallery figure img{
+  width:100% !important;
+}
+ 
+    
+.modula-item .landscape, .wp-block-gallery figure img.landscape, .wp-block-gallery figure.portrait img{
+  width:80% !important;
+}
+  
+}
 
 
 #footer, footer{
