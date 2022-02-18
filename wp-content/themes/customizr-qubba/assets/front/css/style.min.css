@@ -6,14 +6,30 @@
     width:450px;
 }
 
+.tc-header.border-top {
+    border-top-width: 0px;
+    border-top-style: none !important;
+    berder:none;
+}
+
 .branding .navbar-brand-sitename span {
     font-weight: bolder;
+    
+    
 }
 
-
+.primary-navbar__wrapper{
+    font-size: 0.8em;
+}
 .primary-navbar__wrapper.has-horizontal-menu .branding__container {
     max-width: 50%;
+    top:8px;
 }
+
+.primary-nav__nav{
+    top:13px;
+}
+
 
 /************************************/
 /* caixa lisyt post */
@@ -119,8 +135,25 @@
 }
 
 h1{
-    font-size: 2em;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 700;
+    
 }
+
+
+.entry-content p{
+    font-size: 0.8em;
+    text-align:justify;
+    margin:auto;
+}
+/*
+@media only screen and (min-width: 992px) {
+.entry-content p{
+    width:90%;
+}
+}
+*/
 .nav__search{display:none;}
 .nav__menu{font-size:0.85em}
 
@@ -155,4 +188,34 @@ h1{
 .torna:hover{
      background-color: rgba(59,59,59,.8);
      transition: background-color 0.5s;
+}
+
+.modula.modula-gallery{
+    margin-bottom:100px;
+}
+
+.modula-gallery .modula-item{
+    cursor:initial !important;
+}
+/*
+.modula-item{
+    transform: scale(0.8) !important;
+}*/
+
+
+  
+.modula-item .landscape{
+    /*transform: scale(0.8);*/
+    width:100%;
+}
+.modula-item .portrait{
+    /*transform: scale(0.8);*/
+    width:80%;
+}  
+  
+
+
+
+#footer, footer{
+    display:none;
 }

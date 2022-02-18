@@ -17,4 +17,12 @@ function my_theme_enqueue_styles() {
  //echo get_template_directory_uri() . '/assets/shared/fonts/fa/css/fontawesome-all.min.css';die();
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+
+/* Custom script with no dependencies, enqueued in the header */
+add_action('wp_enqueue_scripts', 'qubba_enqueue_custom_js');
+function qubba_enqueue_custom_js() {
+    //echo get_stylesheet_directory_uri().'/qubba.js';die();
+    wp_enqueue_script('custom', get_stylesheet_directory_uri().'/qubba.js',array('jquery'), '', true);
+}
 ?>
