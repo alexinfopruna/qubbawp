@@ -31,7 +31,7 @@ $next_link  = get_next_post_link(
 
 
 /* If no links are present do not display this */
-if ( FALSE && null != $prev_link || null != $next_link ) :
+if (  null != $prev_link || null != $next_link ) :
 
 ?>
 <!--

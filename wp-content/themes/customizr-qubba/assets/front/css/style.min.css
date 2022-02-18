@@ -72,8 +72,17 @@
 }
 }
     
+/* thumbnails */
+.tc-grid-figure, .tc-grid-figure img{
+    height: 250px;
+}
 
+img.v-centered {
+     height: auto!important;
+    }
 
+    /* thumbnails */
+    
 .grid-container__classic .expanded.hover .entry-summary, .grid-container__classic 
 .grid-item:not(.expanded).hover .tc-grid-caption  .tc-g-cont.czr-talign {
     opacity: 1;
@@ -140,7 +149,7 @@ h1{
 }
 
 .entry-header .entry-title{
-        font-size: 1.4em;
+        font-size: 1.6em;
     text-align: center;
     font-weight: 700;
     margin-top: 100px;
