@@ -135,12 +135,15 @@
 }
 
 h1{
-    font-size: 1.4em;
-    text-align: center;
-    font-weight: 700;
+
     
 }
 
+.entry-title{
+        font-size: 1.4em;
+    text-align: center;
+    font-weight: 700;
+}
 
 .entry-content p{
     font-size: 0.8em;
