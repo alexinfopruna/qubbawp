@@ -27,7 +27,7 @@ function qubba_enqueue_custom_js() {
 }
 
 
-
+/*
 
 function add_orientation_class( $attr, $attachment ) {
 echo "UEEEEE!!!";die();
@@ -54,7 +54,10 @@ echo "UEEEEE!!!";die();
     return $attr;
 }
 
-add_filter( 'wp_get_attachment_image_attributes', 'add_orientation_class', 10, 2 );
+ */
+
+
+
 /*
 
 function wpdocs_filter_gallery_img_atts( $atts, $attachment ) {
