@@ -72,7 +72,7 @@
 }
 }
     
-/* thumbnails */
+/* thumbnails 
 .tc-grid-figure, .tc-grid-figure img{
     height: 250px;
 }
@@ -80,7 +80,7 @@
 img.v-centered {
      height: auto!important;
     }
-
+*/
     /* thumbnails */
     
 .grid-container__classic .expanded.hover .entry-summary, .grid-container__classic 
@@ -203,7 +203,7 @@ h1{
      background-color: rgba(59,59,59,.8);
      transition: background-color 0.5s;
 }
-
+/*
 .modula.modula-gallery{
     margin-bottom:100px;
 }
@@ -211,6 +211,7 @@ h1{
 .modula-gallery .modula-item{
     cursor:initial !important;
 }
+*/
 /*
 .modula-item{
     transform: scale(0.8) !important;
@@ -223,6 +224,8 @@ h1{
 .wp-block-gallery figure img{
     margin-bottom: 80px !important;
 }
+
+.wp-block-gallery figcaption{display:none}
 /*
 .wp-block-image{
     margin-bottom: 50px;
