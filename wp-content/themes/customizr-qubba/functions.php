@@ -83,7 +83,10 @@ function wpse302130_add_image_class ($class){
     
 add_filter('get_image_tag_class','wpse302130_add_image_class');
 
-	
+// Disable xml-rpc	
 add_filter('xmlrpc_enabled', '__return_false');
+
+//disable http
+add_filter( 'pre_http_request', '__return_true', 100 );
 
 ?>
